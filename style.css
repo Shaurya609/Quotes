@@ -4,3 +4,15 @@ body{
 .jumbotron{
     background-image: url(https://drive.google.com/uc?id=1VYNNCPu82_wX1YZjrW1ChDGt03zvhR-e);
 }
+.card:hover{
+    transform: scale(1.05);
+    animation-name: video;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes video{
+    0%{border: 3px solid black;}
+    25%{border: 3px dashed black;}
+    50%{border: 3px dotted black;}
+    100%{border: 3px double black;}
+}
