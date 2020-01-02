@@ -16,3 +16,7 @@ body{
     50%{border: 3px dotted black;}
     100%{border: 3px double black;}
 }
+.card-title{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
